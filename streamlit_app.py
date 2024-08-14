@@ -8,7 +8,7 @@ st.write(
 
 css="""
 <style>
-    background-color: coral;
+    body {background-color: coral;}
 </style>
 """
 
