@@ -8,7 +8,9 @@ st.write(
 
 css="""
 <style>
-    body {background-color: coral;}
+    .stForm {
+    background-color: #0000FF;
+    }
 </style>
 """
 
