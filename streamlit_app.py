@@ -8,9 +8,7 @@ st.write(
 
 css="""
 <style>
-    [data-testid="stForm"] {
-        background: LightBlue;
-    }
+    background: LightBlue;
 </style>
 """
 
