@@ -1,5 +1,14 @@
 import streamlit as st
 
+import pandas as pd
+import numpy as np
+
+df = pd.DataFrame(
+    np.random.randn(10, 5), columns=("col %d" % i for i in range(5))
+)
+
+st.table(df)
+
 st.set_page_config(
     page_title="Light Project",
     page_icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdbM0Bqr7Q7mCAouhY1p_x_poXPrxinl9a7Q&s",
