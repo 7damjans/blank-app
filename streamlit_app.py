@@ -17,7 +17,15 @@ st.set_page_config(
 col1, col2 = st.columns(2)
 
 with col1:
-   st.header("Aqsqsddsn owl")
+   chart_data = pd.DataFrame(
+    {
+        "col1": np.random.randn(20),
+        "col2": np.random.randn(20),
+        "col3": np.random.choice(["A", "B", "C"], 20),
+    }
+)
+
+st.line_chart(chart_data, x="col1", y="col2", color="col3")
 
 with col2:
     st.header("A dog")
