@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Hello",
-    page_icon="https://static.wikia.nocookie.net/deathnote/images/6/6c/L_Symbol.jpeg/revision/latest?cb=20081006192949",
+    page_icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl1fZRdbQEOIWqz0tCkfMVqqjweHHjSocy0Q&s",
 )
 st.title("🎈 My new app")
 st.write(
