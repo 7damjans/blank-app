@@ -28,6 +28,17 @@ with col1:
     )
 
     my_table.add_rows(df2)
+    my_chart = st.vega_lite_chart(
+    {
+        "mark": "line",
+        "encoding": {"x": "a", "y": "b"},
+        "datasets": {
+            "some_fancy_name": df1,  # <-- named dataset
+        },
+        "data": {"name": "some_fancy_name"},
+    }
+)
+my_chart.add_rows(some_fancy_name=df2)  # <-- name used as keyword
 
 with col2:
     st.header("A dog")
