@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Hello",
-    page_icon="🤣",
+    page_icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFdhiY218vl2AyWxlTZBWa2ZqPbVxD0rWwIg&s",
 )
 st.title("🎈 My new app")
 st.write(
