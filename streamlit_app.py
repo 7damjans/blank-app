@@ -15,8 +15,7 @@ st.set_page_config(
 )
 
 col1, col2 = st.columns(2)
-
-   chart_data = pd.DataFrame(
+chart_data = pd.DataFrame(
     {
         "col1": np.random.randn(20),
         "col2": np.random.randn(20),
