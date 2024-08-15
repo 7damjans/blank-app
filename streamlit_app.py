@@ -16,7 +16,6 @@ st.set_page_config(
 
 col1, col2 = st.columns(2)
 
-with col1:
    chart_data = pd.DataFrame(
     {
         "col1": np.random.randn(20),
@@ -25,11 +24,12 @@ with col1:
     }
 )
 
-st.line_chart(chart_data, x="col1", y="col2", color="col3")
+
+with col1:
+    st.line_chart(chart_data, x="col1", y="col2", color="col3")
 
 with col2:
-    st.header("A dog")
-    st.image("https://static.streamlit.io/examples/dog.jpg")
+    st.line_chart(chart_data, x="col1", y="col2", color="col3")
 
 
    
