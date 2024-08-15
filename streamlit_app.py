@@ -25,10 +25,10 @@ chart_data = pd.DataFrame(
 
 
 with col1:
-    st.line_chart(chart_data, x="col1", y="col2", color="col3")
+    st.line_chart(chart_data, x="col1", y="col2", color="col3") # Replace with whatever you want
 
 with col2:
-    st.line_chart(chart_data, x="col1", y="col2", color="col3")
+    st.line_chart(chart_data, x="col1", y="col2", color="col3") # Replace with whatever you want
 
 
 
