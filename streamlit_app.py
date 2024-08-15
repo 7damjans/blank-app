@@ -3,6 +3,7 @@ import streamlit as st
 st.set_page_config(
     page_title="Light Project",
     page_icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdbM0Bqr7Q7mCAouhY1p_x_poXPrxinl9a7Q&s",
+    layout="wide",
 )
 st.title("🎈 My new app")
 st.write(
