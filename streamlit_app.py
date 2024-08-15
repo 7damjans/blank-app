@@ -31,11 +31,17 @@ with col2:
     st.line_chart(chart_data, x="col1", y="col2", color="col3")
 
 
-   
-st.title("🎈 My new app")
-st.write(
-    "Let's start ! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+col1, col2, col3 = st.columns(3)  
+
+with col1:
+
+with col2:
+    st.title("🎈 My new app")
+    st.write(
+        "Let's start ! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    )
+with col3:
+
 
 css="""
 <style>
